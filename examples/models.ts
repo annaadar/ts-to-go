@@ -25,6 +25,4 @@ interface Config {
   scores: Record<string, number>;
   lookup: Record<string, User>;
 }
-interface Generic<T> {
-  data:T;
-}
+
